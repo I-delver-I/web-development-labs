@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-color: blue;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    border: 10px solid green;
+    border-style: ridge;
+    background-image: url(../img/header-background.jpg);
+    color: red;
+}
+
+main {
+    min-height: calc(100vh - 100px * 2);
+    display: flex;
+    width: auto;
+}
+
+.content-area {
+    display: grid;
+    width: 100%;
+}
+
+.top__content-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left__top__content-area {
+    background-color: blueviolet;
+    width: 50%;
+    display: flex;
+    border-right: 5px solid violet;
+    border-style: groove;
+    background-image: url(../img/gardenofeden.jpg);
+}
+
+.right__top__content-area {
+    background-color: yellow;
+    width: 50%;
+    display: flex;
+    border-left: 5px solid violet;
+    border-style: groove;
+    background-image: url(../img/hell-layers.jpg);
+}
+
+.bottom__content-area {
+    min-height: 60px;
+    max-height: 250px;
+    background-color: black;
+}
+
+.side-area {
+    text-align: center;
+    width: 20%;
+    min-width: 90px;
+    background-color: brown;
+}
+
+footer {
+    min-height: 100px;
+    background-color: green;
+    padding: 10px;
+    border: 5px solid yellow;
+    border-style: dotted;
+}
+
+h1 {
+    margin: 0;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    color: indigo;
+}
+
+a {
+    display: block;
+    font-size: 15pt;
+    margin-top: 30px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.content {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%,
+        rgba(253,244,45,0.13489145658263302) 100%);
+}
+
+ol, ul {
+
+    font-size: 15pt;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 850px) {
+    ol, ul {
+        column-count: 1;
+    }
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
