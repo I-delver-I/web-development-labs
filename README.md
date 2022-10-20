@@ -1,2 +1,6 @@
 # web-development-labs
-First lab - https://github.com/Scarmaing-Whebrolted/chaoschaser.github.io
+[First lab](https://github.com/Scarmaing-Whebrolted/web-lab-1)
+
+[Second lab](https://github.com/Scarmaing-Whebrolted/web-lab-2)
+
+[Third lab](https://github.com/Scarmaing-Whebrolted/web-lab-3)
